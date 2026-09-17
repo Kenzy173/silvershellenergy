@@ -434,7 +434,7 @@ export const capabilities = [
 ] as const;
 
 export const contact = {
-  email: "info@silvershellconsult.com",
+  email: "info@silvershellenergy.com",
   telephone: "+44 1413 539308",
   whatsapp: "+44 7729 324316",
   // Link targets derived from the display numbers above.

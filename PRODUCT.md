@@ -43,7 +43,7 @@ End-to-end oilfield service delivery — finance through operations — under on
 
 - Six named service lines (listed above under Operating Context) each likely need their own page/section, matching the reference site's structure (service sub-pages: oilfield-finance, oil-development, oil-operations, oil-engineering, gas-reduction, crude-trading).
 - **Open/undecided — do not fabricate:**
-  - **Contact email:** info@silvershellconsult.com. Telephone +44 1413 539308; WhatsApp +44 7729 324316.
+  - **Contact email:** info@silvershellenergy.com. Telephone +44 1413 539308; WhatsApp +44 7729 324316.
   - **Logo/visual identity:** the prior brand's logo cannot be reused as-is since the name changed; a new logo/wordmark is an open asset need.
   - **Leadership/team bios:** none were published on the prior site (no names or titles). Do not invent leadership names.
   - **Certifications/accreditations:** none were stated on the prior site. Do not invent certifications.

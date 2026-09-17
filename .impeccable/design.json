@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-08-03T00:00:00.000Z",
-  "title": "Design System: Masarion Energy",
+  "title": "Design System: Silvershell Energy",
   "extensions": {
     "colorMeta": {
       "indigo-primary": {
@@ -69,7 +69,7 @@
       "kind": "nav",
       "refersTo": "nav",
       "description": "Sticky full-width indigo nav: authored hexagonal mark plus wordmark, text links, one amber CTA.",
-      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-mark\" href=\"#\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 28 28\" fill=\"none\"><path d=\"M14 2 L25 8 V20 L14 26 L3 20 V8 Z\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"14\" cy=\"14\" r=\"3.2\" fill=\"currentColor\"/></svg>Masarion Energy</a><div class=\"ds-nav-links\"><a href=\"#\" class=\"ds-nav-link\">Services</a><a href=\"#\" class=\"ds-nav-link\">Contact</a><a href=\"#\" class=\"ds-btn-primary\">Request a consultation</a></div></nav>",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-mark\" href=\"#\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 28 28\" fill=\"none\"><path d=\"M14 2 L25 8 V20 L14 26 L3 20 V8 Z\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"14\" cy=\"14\" r=\"3.2\" fill=\"currentColor\"/></svg>Silvershell Energy</a><div class=\"ds-nav-links\"><a href=\"#\" class=\"ds-nav-link\">Services</a><a href=\"#\" class=\"ds-nav-link\">Contact</a><a href=\"#\" class=\"ds-btn-primary\">Request a consultation</a></div></nav>",
       "css": ".ds-nav { display:flex; align-items:center; justify-content:space-between; background:#12137d; padding:16px 24px; } .ds-nav-mark { display:flex; align-items:center; gap:10px; color:#ffffff; font-family: Archivo, sans-serif; font-weight:600; font-size:16.8px; text-decoration:none; } .ds-nav-links { display:flex; align-items:center; gap:24px; } .ds-nav-link { color:#e7e7f5; font-family: Archivo, sans-serif; font-weight:500; font-size:14px; text-decoration:none; transition:color 0.15s ease; } .ds-nav-link:hover { color:#ffffff; } .ds-nav-link:focus-visible { outline:2px solid #ffffff; outline-offset:2px; }"
     },
     {
@@ -91,7 +91,7 @@
   ],
   "narrative": {
     "northStar": "The Refined Ledger",
-    "overview": "Masarion Energy inherited its dominant color from the company it used to be — a deep, purple-leaning indigo already load-bearing across the predecessor site (energy-vg.com). Rather than inventing a new visual world, this system commits to that color as the whole structural language and raises its execution: large deliberate color fields instead of accent trims, one confident grotesk instead of a template sans, and real figures set in a measuring typeface instead of icon tiles. The system explicitly refuses the two ruts an oilfield-services or B2B-finance brief defaults to — rig-silhouette-and-hazard-orange industrial cliché, and gradient-and-glass startup polish — by choosing neither photography nor decoration and doing the work in color, type, and real proof instead.",
+    "overview": "Silvershell Energy inherited its dominant color from the company it used to be — a deep, purple-leaning indigo already load-bearing across the predecessor site (energy-vg.com). Rather than inventing a new visual world, this system commits to that color as the whole structural language and raises its execution: large deliberate color fields instead of accent trims, one confident grotesk instead of a template sans, and real figures set in a measuring typeface instead of icon tiles. The system explicitly refuses the two ruts an oilfield-services or B2B-finance brief defaults to — rig-silhouette-and-hazard-orange industrial cliché, and gradient-and-glass startup polish — by choosing neither photography nor decoration and doing the work in color, type, and real proof instead.",
     "keyCharacteristics": [
       "One brand color (indigo) carries whole page regions — nav, hero, dividing bands, footer — not just a logo accent.",
       "Amber is scarce and load-bearing: it appears only on the primary action (every CTA button) and one emphasis word per page, never as decoration.",

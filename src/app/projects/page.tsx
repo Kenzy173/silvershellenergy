@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { outcomes } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Projects | Masarion Energy",
+  title: "Projects | Silvershell Energy",
 };
 
 export default function ProjectsPage() {

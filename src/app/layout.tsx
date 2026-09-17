@@ -22,11 +22,11 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 const DIRECTION_CONTRACT = `
-  THESIS: Masarion competes on execution, not invented concept.
+  THESIS: Silvershell competes on execution, not invented concept.
   Precision, restraint, and real financial proof beat rig-cliche
   and SaaS-flashy category defaults.
-  OWN-WORLD: Logo green #082818 dominant across large regions (nav,
-  hero, dividers), logo gold #D89818 accent for CTAs, warm paper
+  OWN-WORLD: Warm charcoal #201E1C dominant across large regions (nav,
+  hero, dividers), logo orange #FF6600 accent for CTAs, warm paper
   #FFFFFF/#F7F5F1 ground, near-black #1B1B1E ink. Unbounded for
   display headlines, Plus Jakarta Sans for body, UI, and data.
   STORY: An operator or investor sees scale and cost-efficiency
@@ -53,9 +53,9 @@ function DirectionContract() {
 }
 
 export const metadata: Metadata = {
-  title: "Masarion Energy | Innovative & Sustainable Energy Solutions",
+  title: "Silvershell Energy | Innovative & Sustainable Energy Solutions",
   description:
-    "Finance through operations under one provider. Masarion Energy delivers oilfield finance, development, operations, engineering, flare gas reduction, and crude trading with a 50% cost reduction for clients.",
+    "Finance through operations under one provider. Silvershell Energy delivers oilfield finance, development, operations, engineering, flare gas reduction, and crude trading with a 50% cost reduction for clients.",
   icons: {
     apple: "/apple-touch-icon.png",
   },

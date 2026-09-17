@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Masarion Energy",
+  title: "Terms of Service | Silvershell Energy",
 };
 
 const sections = [
   {
     heading: "Acceptance of terms",
     body:
-      "By accessing or using the Masarion Energy website, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you should not use the website.",
+      "By accessing or using the Silvershell Energy website, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you should not use the website.",
   },
   {
     heading: "Our services",
     body:
-      "Masarion Energy provides end-to-end oilfield services, including oilfield finance, oilfield development, oilfield operations, oilfield engineering, flare gas reduction, and crude trading. Specific service engagements are governed by separate written agreements, which take precedence over these general terms.",
+      "Silvershell Energy provides end-to-end oilfield services, including oilfield finance, oilfield development, oilfield operations, oilfield engineering, flare gas reduction, and crude trading. Specific service engagements are governed by separate written agreements, which take precedence over these general terms.",
   },
   {
     heading: "Use of the website",
@@ -29,7 +29,7 @@ const sections = [
   {
     heading: "Intellectual property",
     body:
-      "All content on this website, including text, graphics, logos, imagery, and the Masarion Energy name and mark, is the property of Masarion Energy or its licensors and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without our prior written consent.",
+      "All content on this website, including text, graphics, logos, imagery, and the Silvershell Energy name and mark, is the property of Silvershell Energy or its licensors and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without our prior written consent.",
   },
   {
     heading: "Confidentiality",
@@ -44,17 +44,17 @@ const sections = [
   {
     heading: "Limitation of liability",
     body:
-      "To the fullest extent permitted by law, Masarion Energy shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of the website or reliance on its content.",
+      "To the fullest extent permitted by law, Silvershell Energy shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of the website or reliance on its content.",
   },
   {
     heading: "Indemnification",
     body:
-      "You agree to indemnify and hold Masarion Energy harmless from any claims, losses, or damages arising from your breach of these Terms of Service or your misuse of the website.",
+      "You agree to indemnify and hold Silvershell Energy harmless from any claims, losses, or damages arising from your breach of these Terms of Service or your misuse of the website.",
   },
   {
     heading: "Governing law",
     body:
-      "Masarion Energy is a registered company in Nigeria and the United Kingdom. These Terms of Service are governed by the laws applicable in the jurisdictions in which we operate, and any disputes shall be subject to the exclusive jurisdiction of the courts in those jurisdictions.",
+      "Silvershell Energy is a registered company in Nigeria and the United Kingdom. These Terms of Service are governed by the laws applicable in the jurisdictions in which we operate, and any disputes shall be subject to the exclusive jurisdiction of the courts in those jurisdictions.",
   },
   {
     heading: "Changes to these terms",
@@ -67,7 +67,7 @@ export default function TermsPage() {
   return (
     <LegalPage
       title="Terms of Service"
-      description="The terms that govern your use of the Masarion Energy website and engagement with our services."
+      description="The terms that govern your use of the Silvershell Energy website and engagement with our services."
       updated="4 August 2026"
       sections={sections}
     />

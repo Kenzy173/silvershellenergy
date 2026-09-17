@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ComingSoon } from "@/components/ComingSoon";
 
 export const metadata: Metadata = {
-  title: "Blog | Masarion Energy",
+  title: "Blog | Silvershell Energy",
 };
 
 export default function BlogPage() {

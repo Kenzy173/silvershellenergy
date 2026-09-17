@@ -27,7 +27,7 @@ export function ServiceCards() {
           >
             <Link
               href={`/services/${service.slug}`}
-              className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-paper shadow-sm transition-shadow duration-300 hover:shadow-[0_18px_40px_-20px_rgba(8,40,24,0.35)]"
+              className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-paper shadow-sm transition-shadow duration-300 hover:shadow-[0_18px_40px_-20px_rgba(32,30,28,0.35)]"
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-indigo-100">
                 <Image

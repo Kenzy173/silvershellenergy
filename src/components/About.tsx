@@ -12,7 +12,7 @@ export function About() {
             About Us
           </h2>
           <p className="mt-6 type-body text-ink-soft">
-            Masarion Energy is a registered company in Nigeria and the UK. We
+            Silvershell Energy is a registered company in Nigeria and the UK. We
             bring best practices in the field of oil and gas, design, operations,
             and maintenance, and focus on safety and low CAPEX and OPEX costs
             while focusing on the highest value activities. We provide smart

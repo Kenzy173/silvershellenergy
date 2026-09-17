@@ -16,7 +16,7 @@ export function Footer() {
           </div>
           <a
             href="tel:+447931937037"
-            className="inline-flex items-center justify-center rounded-xl bg-amber-600 px-6 py-3.5 text-sm font-semibold text-indigo-900 transition-all hover:bg-amber-500 hover:shadow-[0_4px_20px_rgba(216,152,24,0.35)]"
+            className="inline-flex items-center justify-center rounded-xl bg-amber-600 px-6 py-3.5 text-sm font-semibold text-indigo-900 transition-all hover:bg-amber-500 hover:shadow-[0_4px_20px_rgba(255,102,0,0.35)]"
           >
             +44 (0)7931 937 037
           </a>
@@ -31,7 +31,7 @@ export function Footer() {
                 <SiteMark imgClassName="h-10 w-auto md:h-12" />
               </Link>
               <p className="mt-4 max-w-[22rem] type-body-sm text-indigo-200">
-                Masarion Energy is a registered company in Nigeria and the UK.
+                Silvershell Energy is a registered company in Nigeria and the UK.
                 We bring best practices in the field of oil and gas, design,
                 operations, and maintenance, and focus on safety and low CAPEX
                 and OPEX costs while focusing on the highest value activities.
@@ -86,7 +86,7 @@ export function Footer() {
           </div>
 
           <div className="mt-12 flex flex-col gap-4 border-t border-indigo-700 pt-8 text-sm text-indigo-300 sm:flex-row sm:items-center sm:justify-between">
-            <p>© {new Date().getFullYear()} Masarion Energy. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Silvershell Energy. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <a href="/privacy" className="text-indigo-200 transition-colors hover:text-paper">
                 Privacy

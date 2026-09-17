@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 
 // localStorage mirrors the choice so the banner never re-appears; the cookie
 // itself is the browser-side "collector" record of the user's preference.
-const CONSENT_STORAGE = "masarion_consent";
-const CONSENT_COOKIE = "masarion_consent";
+const CONSENT_STORAGE = "silvershell_consent";
+const CONSENT_COOKIE = "silvershell_consent";
 
 type Consent = "all" | "essential" | null;
 

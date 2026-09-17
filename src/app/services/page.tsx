@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { services, capabilities } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Services | Masarion Energy",
+  title: "Services | Silvershell Energy",
 };
 
 export default function ServicesPage() {
@@ -49,7 +49,7 @@ export default function ServicesPage() {
                 </h2>
               </div>
               <p className="type-body-sm text-ink-soft sm:max-w-xs">
-                The wider Masarion capability set, covering marine, EPC, gas,
+                The wider Silvershell capability set, covering marine, EPC, gas,
                 infrastructure, procurement, and manpower.
               </p>
             </div>

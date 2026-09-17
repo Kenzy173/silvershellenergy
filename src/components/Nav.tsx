@@ -15,7 +15,7 @@ const mainNav = [
   { label: "Contact", href: "/contact" },
 ] as const;
 
-// Mobile drawer links (Contact is handled by the dedicated gold button)
+// Mobile drawer links (Contact is handled by the dedicated orange button)
 const mobileLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
@@ -90,7 +90,7 @@ export function Nav() {
   return (
     <header
       className={`sticky top-0 z-50 bg-indigo-700 text-paper transition-shadow duration-300 ${
-        scrolled ? "shadow-[0_2px_24px_rgba(8,40,24,0.35)]" : ""
+        scrolled ? "shadow-[0_2px_24px_rgba(32,30,28,0.35)]" : ""
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
@@ -181,7 +181,7 @@ export function Nav() {
       {/* Mobile menu: overlay dropdown below the header (does not push content) */}
       {open && (
         <nav
-          className="absolute left-0 right-0 top-full z-50 md:hidden max-h-[80vh] overflow-y-auto border-t border-indigo-600 bg-indigo-700 px-6 pb-6 pt-2 shadow-[0_24px_48px_-12px_rgba(8,40,24,0.55)] motion-safe:animate-[menu-in_200ms_ease-out]"
+          className="absolute left-0 right-0 top-full z-50 md:hidden max-h-[80vh] overflow-y-auto border-t border-indigo-600 bg-indigo-700 px-6 pb-6 pt-2 shadow-[0_24px_48px_-12px_rgba(32,30,28,0.55)] motion-safe:animate-[menu-in_200ms_ease-out]"
           aria-label="Primary"
         >
           <ul className="flex flex-col">

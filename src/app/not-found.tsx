@@ -4,7 +4,7 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Page not found | Masarion Energy",
+  title: "Page not found | Silvershell Energy",
 };
 
 export default function NotFound() {

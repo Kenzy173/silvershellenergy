@@ -34,7 +34,7 @@ export function Hero() {
             aria-hidden="true"
           />
           <p className="mt-5 text-xs font-semibold uppercase tracking-[0.22em] text-indigo-100">
-            Masarion Energy
+            Silvershell Energy
           </p>
         </div>
       )}
@@ -45,7 +45,7 @@ export function Hero() {
       <div className="relative mx-auto flex min-h-[58vh] max-w-6xl items-center px-6 py-14 md:min-h-[64vh] md:py-20">
         <div className="relative max-w-3xl motion-safe:animate-[hero-in_0.7s_ease-out_both]">
           <h1 className="text-balance type-display text-paper">
-            Masarion Energy
+            Silvershell Energy
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-snug font-medium text-indigo-50 md:text-xl">
             Your trusted partner in innovative and sustainable energy solutions,

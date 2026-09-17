@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Masarion Energy",
+  title: "Privacy Policy | Silvershell Energy",
 };
 
 const sections = [
   {
     heading: "Introduction",
     body:
-      "Masarion Energy ('we', 'us', 'our') is committed to protecting the privacy of our website visitors, clients, and partners. This Privacy Policy explains what information we collect when you interact with our website or engage our services, how we use it, and the choices you have.",
+      "Silvershell Energy ('we', 'us', 'our') is committed to protecting the privacy of our website visitors, clients, and partners. This Privacy Policy explains what information we collect when you interact with our website or engage our services, how we use it, and the choices you have.",
   },
   {
     heading: "Information we collect",
@@ -72,7 +72,7 @@ const sections = [
   {
     heading: "International transfers",
     body:
-      "Masarion Energy operates in Nigeria and the United Kingdom. Where information is transferred across borders, we take steps to ensure it is protected to appropriate standards.",
+      "Silvershell Energy operates in Nigeria and the United Kingdom. Where information is transferred across borders, we take steps to ensure it is protected to appropriate standards.",
   },
   {
     heading: "Changes to this policy",
@@ -85,7 +85,7 @@ export default function PrivacyPage() {
   return (
     <LegalPage
       title="Privacy Policy"
-      description="How Masarion Energy collects, uses, and protects your personal information."
+      description="How Silvershell Energy collects, uses, and protects your personal information."
       updated="4 August 2026"
       sections={sections}
     />

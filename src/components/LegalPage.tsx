@@ -72,10 +72,10 @@ export function LegalPage({
               <p className="mt-2 type-body-sm text-ink-soft">
                 Contact our team at{" "}
                 <a
-                  href="mailto:contact@masarionenergy.com"
+                  href="mailto:contact@silvershellenergy.com"
                   className="font-medium text-indigo-700 hover:underline"
                 >
-                  contact@masarionenergy.com
+                  contact@silvershellenergy.com
                 </a>{" "}
                 or call{" "}
                 <a

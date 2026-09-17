@@ -55,7 +55,7 @@ export const serviceDetails: Record<
 > = {
   "oilfield-finance": {
     intro:
-      "Oil and gas ventures carry financing needs most lenders aren't built for. Masarion Energy connects operators with banking institutions and private equity partners who understand the sector, then structures the capital stack around the project instead of forcing the project to fit a generic loan.",
+      "Oil and gas ventures carry financing needs most lenders aren't built for. Silvershell Energy connects operators with banking institutions and private equity partners who understand the sector, then structures the capital stack around the project instead of forcing the project to fit a generic loan.",
     body: [
       "Our company specialises in providing comprehensive financial services to oilfield owners. We understand the unique financial needs and challenges that come with operating in the oil and gas industry, and we are committed to helping our clients achieve their financial goals.",
       "With our expertise and experience, we are dedicated to helping oil field owners navigate the complex financial landscape of the industry and achieve long-term success. We engage banks, private equity firms, and other financial institutions that specialise in energy investments.",
@@ -70,9 +70,9 @@ export const serviceDetails: Record<
   },
   "oil-development": {
     intro:
-      "Taking a field from appraisal to first production means coordinating drilling, extraction, safety, and environmental compliance under one plan. Masarion Energy runs that plan directly across FPSO and MOPU assets.",
+      "Taking a field from appraisal to first production means coordinating drilling, extraction, safety, and environmental compliance under one plan. Silvershell Energy runs that plan directly across FPSO and MOPU assets.",
     body: [
-      "At Masarion Energy we are committed to providing comprehensive support to oil field owners in all aspects of their operations, including FPSO and MOPU operations and oil field development. We understand the unique challenges and complexities of these operations, and we have the expertise and experience to help our clients navigate them successfully.",
+      "At Silvershell Energy we are committed to providing comprehensive support to oil field owners in all aspects of their operations, including FPSO and MOPU operations and oil field development. We understand the unique challenges and complexities of these operations, and we have the expertise and experience to help our clients navigate them successfully.",
       "We provide expert advice and guidance on all aspects of FPSO and MOPU operations, including design, construction, installation, and maintenance. In addition, we offer a range of services to support oil field development, including project management, engineering, procurement, and construction.",
       "We work closely with our clients to ensure that their projects are completed on time, within budget, and to the highest standards of quality and safety. With our expertise and experience, we are dedicated to helping oil field owners achieve long-term success and profitability in their operations.",
     ],
@@ -157,7 +157,7 @@ export const serviceDetails: Record<
       "Flaring is a common practice in the industry, but it contributes to greenhouse gas emissions and is considered wasteful. We consider the following:",
       "Our teams work with partner companies to develop tailored solutions for flare gas to fuel gas conversion for flare-to-power projects.",
       "Harnessing the flare gas as fuel gas, we provide low-emission gas turbines for additional power generation; this power can be harnessed either onto the grid or to island operation on offshore installations.",
-      "Official estimates count around 150 billion m³ of natural gas being flared each year, which corresponds to 350 million tons of carbon dioxide released into the atmosphere. Masarion Energy is supporting the oil and gas industry in its efforts to endorse the World Bank's \"Zero Routine Flaring by 2030\" initiative.",
+      "Official estimates count around 150 billion m³ of natural gas being flared each year, which corresponds to 350 million tons of carbon dioxide released into the atmosphere. Silvershell Energy is supporting the oil and gas industry in its efforts to endorse the World Bank's \"Zero Routine Flaring by 2030\" initiative.",
     ],
     capabilities: [
       "Flare-to-fuel conversion: tailored capture solutions engineered with turbine partners.",
@@ -179,7 +179,7 @@ export const serviceDetails: Record<
   },
   "crude-trading": {
     intro:
-      "Masarion Energy trades Bonny Light, a premium low-sulfur Nigerian export grade, connecting refineries and buyers worldwide with reliable, compliant supply.",
+      "Silvershell Energy trades Bonny Light, a premium low-sulfur Nigerian export grade, connecting refineries and buyers worldwide with reliable, compliant supply.",
     body: [
       "We specialise in the sale of Bonny Light crude oil to clients around the world. Bonny Light crude is a high-quality, low-sulfur crude oil that is highly sought after by refineries and other buyers in the global market. We work closely with our clients to understand their specific needs and requirements, and we provide customised solutions to meet those needs.",
       "We ensure that all our transactions are conducted in a transparent and ethical manner, and we adhere to all relevant regulations and industry standards. We also provide comprehensive logistics and shipping services to ensure that our clients receive their orders on time and in the most cost-effective manner possible.",
@@ -241,7 +241,7 @@ export const outcomes = [
     challenge:
       "Routine flaring is one of the most visible sources of waste in offshore operations, a byproduct gas stream burned off because capturing it was never economical. For this operator, the flared gas represented both a compliance exposure and a stranded asset: energy that could be sold, used, or injected, but was being consumed on site with no return. The challenge was to engineer a capture and conversion pathway that paid for itself rather than adding operating cost.",
     approach:
-      "Masarion Energy worked with partner companies to design a flare-to-fuel conversion package sized to the asset's actual gas profile. The team mapped the flare stream, quantified recoverable volumes, and specified low-emission gas turbines capable of running on the captured fuel gas. Conversion infrastructure was engineered for minimal production disruption, with staged commissioning so the asset never lost uptime during the transition.",
+      "Silvershell Energy worked with partner companies to design a flare-to-fuel conversion package sized to the asset's actual gas profile. The team mapped the flare stream, quantified recoverable volumes, and specified low-emission gas turbines capable of running on the captured fuel gas. Conversion infrastructure was engineered for minimal production disruption, with staged commissioning so the asset never lost uptime during the transition.",
     results: [
       "Captured 95% of emissions at the source, virtually eliminating routine flaring on the asset.",
       "Converted recovered gas into a usable power stream rather than burning it off.",
@@ -264,11 +264,11 @@ export const outcomes = [
     tagline:
       "40% volume growth and $1.5B in fresh contracts, a trading desk scaled for new markets.",
     summary:
-      "A crude trading engagement grew a client's trading volumes by 40%, opening access to new buyers and securing $1.5B in fresh contracts. The expansion ran on the same transparent, compliance-first trading terms Masarion applies across every transaction.",
+      "A crude trading engagement grew a client's trading volumes by 40%, opening access to new buyers and securing $1.5B in fresh contracts. The expansion ran on the same transparent, compliance-first trading terms Silvershell applies across every transaction.",
     challenge:
       "The client's trading desk had capacity and supply, but was locked into a narrow buyer base that left it exposed to concentrated demand. Growing volumes meant building new offtake relationships, structuring terms that satisfied international trading standards, and coordinating logistics across longer supply chains, without compromising the discipline that kept the desk compliant and counterparty-safe.",
     approach:
-      "Masarion Energy's trading team opened the desk to a broader buyer network, sourcing and specifying Bonny Light supply to each counterparty's requirements. Contracts were structured under transparent, compliant terms from the outset, and logistics and shipping were coordinated end to end so delivery commitments were met on time and cost-effectively.",
+      "Silvershell Energy's trading team opened the desk to a broader buyer network, sourcing and specifying Bonny Light supply to each counterparty's requirements. Contracts were structured under transparent, compliant terms from the outset, and logistics and shipping were coordinated end to end so delivery commitments were met on time and cost-effectively.",
     results: [
       "Increased trading volumes by 40%.",
       "Secured $1.5B in new contracts.",
@@ -295,7 +295,7 @@ export const outcomes = [
     challenge:
       "Raising output from a producing field usually means choosing between speed and community. Fast-track development strains local capacity and can leave surrounding communities outside the benefit. This client wanted both: meaningful production gains and a workforce development outcome that the region could measure.",
     approach:
-      "Masarion Energy ran the development plan across the full lifecycle, covering production optimisation, well integrity, and environmental and safety compliance, while sequencing work to hit output targets without inflating cost. Local hiring and skills development were built into the schedule as deliverable milestones, not afterthoughts, so the project created jobs at the same pace it created production.",
+      "Silvershell Energy ran the development plan across the full lifecycle, covering production optimisation, well integrity, and environmental and safety compliance, while sequencing work to hit output targets without inflating cost. Local hiring and skills development were built into the schedule as deliverable milestones, not afterthoughts, so the project created jobs at the same pace it created production.",
     results: [
       "Boosted production by 30%.",
       "Created 500 local jobs during the development.",
@@ -303,7 +303,7 @@ export const outcomes = [
       "Held environmental and safety compliance to plan from the start.",
     ],
     impact:
-      "The field now produces more, and the community that hosts it has 500 more employed people and a workforce with transferable skills. The model, production and people advanced together, is now the standard Masarion brings to field development engagements.",
+      "The field now produces more, and the community that hosts it has 500 more employed people and a workforce with transferable skills. The model, production and people advanced together, is now the standard Silvershell brings to field development engagements.",
     stats: [
       { value: "+30%", label: "Production uplift" },
       { value: "500", label: "Local jobs created" },
@@ -318,11 +318,11 @@ export const outcomes = [
     tagline:
       "$500M in structured capital for advanced oilfield operations.",
     summary:
-      "An energy financing engagement secured $500M in capital to fund advanced oilfield operations, structured through Masarion's banking and private equity relationships rather than a single balance-sheet lender.",
+      "An energy financing engagement secured $500M in capital to fund advanced oilfield operations, structured through Silvershell's banking and private equity relationships rather than a single balance-sheet lender.",
     challenge:
       "Advanced oilfield operations rarely fit a single lender's box. The capital needed was too large for one balance-sheet facility, and the asset-backed structure required specialised energy investors who understood the sector's risk profile. The client needed a capital stack built around the project, not a project squeezed into a generic loan.",
     approach:
-      "Masarion Energy connected the client with banking institutions and private equity partners who specialise in energy assets, then structured the capital stack around the project's specific profile. Senior and structured debt was arranged through banking partners, with private equity layered in for the development-stage and expansion components.",
+      "Silvershell Energy connected the client with banking institutions and private equity partners who specialise in energy assets, then structured the capital stack around the project's specific profile. Senior and structured debt was arranged through banking partners, with private equity layered in for the development-stage and expansion components.",
     results: [
       "Secured $500M in capital to fund advanced oilfield operations.",
       "Structured the stack across banking and private equity relationships.",
@@ -342,25 +342,25 @@ export const outcomes = [
 export const testimonials = [
   {
     quote:
-      "Masarion Energy exceeded our expectations with innovative, tailored solutions that boosted efficiency and cut costs. Their commitment to sustainability sets them apart, making them a valued energy partner.",
+      "Silvershell Energy exceeded our expectations with innovative, tailored solutions that boosted efficiency and cut costs. Their commitment to sustainability sets them apart, making them a valued energy partner.",
     name: "Adebayo Bolu",
     title: "Managing Director",
   },
   {
     quote:
-      "Working with Masarion Energy has transformed our real estate projects. Their expertise in renewable energy and seamless integration set our properties apart, driving growth with professionalism and results.",
+      "Working with Silvershell Energy has transformed our real estate projects. Their expertise in renewable energy and seamless integration set our properties apart, driving growth with professionalism and results.",
     name: "Kate Kwameh",
     title: "Agricultural Business Owner",
   },
   {
     quote:
-      "Masarion Energy showcased exceptional expertise from consultation to implementation, delivering a seamless, sustainable energy solution with outstanding support. We couldn't be happier.",
+      "Silvershell Energy showcased exceptional expertise from consultation to implementation, delivering a seamless, sustainable energy solution with outstanding support. We couldn't be happier.",
     name: "Lebo Tomilora",
     title: "Hospitality Manager",
   },
   {
     quote:
-      "Masarion Energy simplified our energy transition, guiding us seamlessly to clean, sustainable power. Our hospitality business now operates efficiently and appeals to eco-conscious clients.",
+      "Silvershell Energy simplified our energy transition, guiding us seamlessly to clean, sustainable power. Our hospitality business now operates efficiently and appeals to eco-conscious clients.",
     name: "Fatima Sadiq",
     title: "Real Estate Developer",
   },
@@ -411,7 +411,7 @@ export const coreValues = [
 
 export const companyProfile = {
   overview:
-    "Masarion Energy is a Nigerian indigenous energy and infrastructure company providing innovative, reliable, and sustainable solutions across the oil and gas value chain. We specialise in upstream, midstream and downstream operations, marine logistics, port and dry docking services, crude oil trading, engineering, procurement, project management, and energy infrastructure development. Our mission is to become one of Africa's leading integrated energy companies by delivering world-class services that maximise operational efficiency, reduce project costs, and create long-term value for our clients, while maintaining the highest standards of safety, quality, and environmental stewardship.",
+    "Silvershell Energy is a Nigerian indigenous energy and infrastructure company providing innovative, reliable, and sustainable solutions across the oil and gas value chain. We specialise in upstream, midstream and downstream operations, marine logistics, port and dry docking services, crude oil trading, engineering, procurement, project management, and energy infrastructure development. Our mission is to become one of Africa's leading integrated energy companies by delivering world-class services that maximise operational efficiency, reduce project costs, and create long-term value for our clients, while maintaining the highest standards of safety, quality, and environmental stewardship.",
   vision:
     "To become Africa's preferred integrated energy partner delivering innovative solutions across oil, gas, marine, and energy infrastructure.",
   mission:
@@ -434,14 +434,14 @@ export const capabilities = [
 ] as const;
 
 export const contact = {
-  email: "contact@masarionenergy.com",
+  email: "contact@silvershellenergy.com",
   mobile: "+44 (0)7931 937 037",
   telephone: "+234 (80)3700 7802",
 } as const;
 
 export const aboutContent = {
   intro:
-    "Masarion Energy is a registered company in Nigeria and the UK. We bring best practices in the field of oil and gas, design, operations, and maintenance, and focus on safety and low CAPEX and OPEX costs while focusing on the highest value activities. We provide smart tailored solutions for clients with a focus on a multi-skilled work force and collaboration that set new standards and objectives in the areas of aquaculture, renewable energy, and carbon capture storage and utilisation.",
+    "Silvershell Energy is a registered company in Nigeria and the UK. We bring best practices in the field of oil and gas, design, operations, and maintenance, and focus on safety and low CAPEX and OPEX costs while focusing on the highest value activities. We provide smart tailored solutions for clients with a focus on a multi-skilled work force and collaboration that set new standards and objectives in the areas of aquaculture, renewable energy, and carbon capture storage and utilisation.",
   philosophy:
     "We are committed to providing comprehensive support to oil field owners in all aspects of their operations, including FPSO, FSO, FPU, MOPU and FLNG operations and cost-effective oil field development. We understand the unique challenges and complexities of these operations, and we have the expertise and experience to help our clients navigate them successfully. We provide professional consulting on all aspects of FPSO, FSO, FPU, MOPU and FLNG operations, including design, construction, installation, maintenance, and commissioning. We work closely with our clients to ensure that their projects are completed on time, within budget, and to the highest standards of quality and safety.",
   expansion:

@@ -1,31 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  /* Brand: derived from the Masarion logo — deep petroleum green + gold.
-     The token names below keep their original indigo/amber labels, but the
-     values now carry the logo's green scale (indigo-*) and gold scale (amber-*). */
-  --color-indigo-950: #030d0a;
-  --color-indigo-900: #051713;
-  --color-indigo-800: #07201a;
-  --color-indigo-700: #082818;
-  --color-indigo-600: #0e3a27;
-  --color-indigo-500: #1b4e36;
-  --color-indigo-400: #3b6c50;
-  --color-indigo-300: #77a189;
-  --color-indigo-200: #a9c8b6;
-  --color-indigo-100: #d9ebe1;
-  --color-indigo-50: #eef6f1;
+  /* Brand: the logo's exact orange (#ff6600) as the accent, on neutral warm
+     charcoal fields. Token names keep their original indigo/amber labels:
+     indigo-* is the charcoal scale (surfaces, neutral text), amber-* is the
+     orange scale — amber-600 is the logo orange itself; 700/800 are darkened
+     only as far as needed to pass AA as text on white. */
+  --color-indigo-950: #0c0b0a;
+  --color-indigo-900: #141312;
+  --color-indigo-800: #1b1a18;
+  --color-indigo-700: #201e1c;
+  --color-indigo-600: #2e2b28;
+  --color-indigo-500: #514c47;
+  --color-indigo-400: #6f6963;
+  --color-indigo-300: #a39c95;
+  --color-indigo-200: #cdc7c0;
+  --color-indigo-100: #e9e5e0;
+  --color-indigo-50: #f5f3f0;
 
-  --color-amber-900: #3d2803;
-  --color-amber-800: #6f4806;
-  --color-amber-700: #a06a0b;
-  --color-amber-600: #d89818;
-  --color-amber-500: #e09d15;
-  --color-amber-400: #dfab2f;
-  --color-amber-300: #e8c05b;
-  --color-amber-200: #f1d68f;
-  --color-amber-100: #f9e9c4;
-  --color-amber-50: #fdf7e8;
+  --color-amber-900: #6b2800;
+  --color-amber-800: #9e3c00;
+  --color-amber-700: #c24a00;
+  --color-amber-600: #ff6600;
+  --color-amber-500: #ff7519;
+  --color-amber-400: #ff8a3d;
+  --color-amber-300: #ff9a5c;
+  --color-amber-200: #ffc39e;
+  --color-amber-100: #ffe2d0;
+  --color-amber-50: #fff3eb;
 
   --color-ink: #1b1b1e;
   --color-ink-soft: #4a4a52;
@@ -186,7 +188,7 @@ body {
 :focus-visible {
   outline: 2px solid #ffffff;
   outline-offset: -2px;
-  box-shadow: 0 0 0 2px #082818;
+  box-shadow: 0 0 0 2px #201e1c;
   border-radius: 3px;
 }
 

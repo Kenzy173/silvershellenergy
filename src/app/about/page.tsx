@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { aboutContent, companyProfile, coreValues, capabilities, offices, stats } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "About | Masarion Energy",
+  title: "About | Silvershell Energy",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
       <Nav />
       <main id="main" className="flex-1">
         <PageHeader
-          title="About Masarion Energy"
+          title="About Silvershell Energy"
           description={aboutContent.intro}
           meta={
             <dl className="grid grid-cols-2 gap-x-6 gap-y-8">

@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Contact | Masarion Energy",
+  title: "Contact | Silvershell Energy",
 };
 
 export default function ContactPage() {

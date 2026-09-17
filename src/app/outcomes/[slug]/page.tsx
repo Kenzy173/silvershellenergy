@@ -19,7 +19,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const outcome = outcomes.find((o) => o.slug === slug);
   return {
-    title: outcome ? `${outcome.title} | Masarion Energy` : "Masarion Energy",
+    title: outcome ? `${outcome.title} | Silvershell Energy` : "Silvershell Energy",
   };
 }
 

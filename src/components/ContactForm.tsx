@@ -52,7 +52,7 @@ export function ContactForm() {
     if (Object.keys(nextErrors).length > 0) return;
 
     setStatus("submitting");
-    // TODO: wire to a real intake endpoint once the Masarion domain/email is confirmed.
+    // TODO: wire to a real intake endpoint once the Silvershell domain/email is confirmed.
     await new Promise((resolve) => setTimeout(resolve, 900));
     setStatus("success");
   }
@@ -64,7 +64,7 @@ export function ContactForm() {
         <div>
           <p className="font-medium text-ink">Request received.</p>
           <p className="mt-1 type-body-sm text-ink-soft">
-            A member of the Masarion Energy team will get back to you shortly.
+            A member of the Silvershell Energy team will get back to you shortly.
           </p>
         </div>
       </div>

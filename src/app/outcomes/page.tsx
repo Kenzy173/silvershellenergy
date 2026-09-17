@@ -7,7 +7,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { outcomes } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Project Outcomes | Masarion Energy",
+  title: "Project Outcomes | Silvershell Energy",
 };
 
 export default function OutcomesPage() {

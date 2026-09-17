@@ -106,7 +106,7 @@ export function Hero() {
             aria-hidden="true"
           />
           <p className="mt-5 text-xs font-semibold uppercase tracking-[0.22em] text-indigo-100">
-            Masarion Energy
+            Silvershell Energy
           </p>
         </div>
       )}
@@ -142,7 +142,7 @@ export function Hero() {
               animate={reduceMotion ? "show" : videoReady ? "show" : "hidden"}
             >
               <h1 className="text-balance type-display text-paper">
-                {"Masarion Energy".split(" ").map((word, i) => (
+                {"Silvershell Energy".split(" ").map((word, i) => (
                   <motion.span
                     key={i}
                     variants={headlineWord}
@@ -166,7 +166,7 @@ export function Hero() {
               >
                 <Link
                   href="/projects"
-                  className="inline-flex items-center justify-center rounded-xl bg-amber-600 px-6 py-3.5 text-sm font-semibold text-indigo-900 shadow-[0_2px_12px_rgba(216,152,24,0.35)] transition-all hover:bg-amber-500 hover:shadow-[0_4px_20px_rgba(216,152,24,0.45)]"
+                  className="inline-flex items-center justify-center rounded-xl bg-amber-600 px-6 py-3.5 text-sm font-semibold text-indigo-900 shadow-[0_2px_12px_rgba(255,102,0,0.35)] transition-all hover:bg-amber-500 hover:shadow-[0_4px_20px_rgba(255,102,0,0.45)]"
                 >
                   See Our Projects
                 </Link>

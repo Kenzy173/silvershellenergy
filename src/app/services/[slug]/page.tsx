@@ -17,7 +17,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
-  return { title: service ? `${service.name} | Masarion Energy` : "Masarion Energy" };
+  return { title: service ? `${service.name} | Silvershell Energy` : "Silvershell Energy" };
 }
 
 export default async function ServicePage({

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SiteMark } from "./SiteMark";
-import { services, offices, primaryNav } from "@/lib/content";
+import { services, offices, primaryNav, contact } from "@/lib/content";
 
 export function Footer() {
   return (
@@ -15,10 +15,10 @@ export function Footer() {
             </p>
           </div>
           <a
-            href="tel:+447931937037"
+            href={contact.telephoneHref}
             className="inline-flex items-center justify-center rounded-xl bg-amber-600 px-6 py-3.5 text-sm font-semibold text-indigo-900 transition-all hover:bg-amber-500 hover:shadow-[0_4px_20px_rgba(255,102,0,0.35)]"
           >
-            +44 (0)7931 937 037
+            {contact.telephone}
           </a>
         </div>
       </div>

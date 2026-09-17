@@ -1,6 +1,6 @@
 import { ContactForm } from "./ContactForm";
 import { offices, contact } from "@/lib/content";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 
 export function Contact() {
   return (
@@ -44,28 +44,30 @@ export function Contact() {
                 </dd>
               </div>
               <div className="flex gap-4 py-5">
-                <dt className="sr-only">Mobile</dt>
-                <Phone size={20} className="mt-0.5 shrink-0 text-indigo-700" aria-hidden="true" />
-                <dd>
-                  <p className="type-label text-ink">Mobile</p>
-                  <a
-                    href="tel:+447931937037"
-                    className="mt-1 block type-body-sm text-indigo-700 hover:underline"
-                  >
-                    {contact.mobile}
-                  </a>
-                </dd>
-              </div>
-              <div className="flex gap-4 py-5">
                 <dt className="sr-only">Telephone</dt>
                 <Phone size={20} className="mt-0.5 shrink-0 text-indigo-700" aria-hidden="true" />
                 <dd>
                   <p className="type-label text-ink">Telephone</p>
                   <a
-                    href="tel:+2348037007802"
+                    href={contact.telephoneHref}
                     className="mt-1 block type-body-sm text-indigo-700 hover:underline"
                   >
                     {contact.telephone}
+                  </a>
+                </dd>
+              </div>
+              <div className="flex gap-4 py-5">
+                <dt className="sr-only">WhatsApp</dt>
+                <MessageCircle size={20} className="mt-0.5 shrink-0 text-indigo-700" aria-hidden="true" />
+                <dd>
+                  <p className="type-label text-ink">WhatsApp</p>
+                  <a
+                    href={contact.whatsappHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 block type-body-sm text-indigo-700 hover:underline"
+                  >
+                    {contact.whatsapp}
                   </a>
                 </dd>
               </div>

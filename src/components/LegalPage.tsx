@@ -1,6 +1,7 @@
 import { Nav } from "./Nav";
 import { Footer } from "./Footer";
 import { PageHeader } from "./PageHeader";
+import { contact } from "@/lib/content";
 
 export type LegalSection = {
   heading: string;
@@ -72,17 +73,17 @@ export function LegalPage({
               <p className="mt-2 type-body-sm text-ink-soft">
                 Contact our team at{" "}
                 <a
-                  href="mailto:contact@silvershellenergy.com"
+                  href={`mailto:${contact.email}`}
                   className="font-medium text-indigo-700 hover:underline"
                 >
-                  contact@silvershellenergy.com
+                  {contact.email}
                 </a>{" "}
                 or call{" "}
                 <a
-                  href="tel:+447931937037"
+                  href={contact.telephoneHref}
                   className="font-medium text-indigo-700 hover:underline"
                 >
-                  +44 (0)7931 937 037
+                  {contact.telephone}
                 </a>
                 .
               </p>

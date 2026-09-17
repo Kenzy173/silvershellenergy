@@ -434,9 +434,12 @@ export const capabilities = [
 ] as const;
 
 export const contact = {
-  email: "contact@silvershellenergy.com",
-  mobile: "+44 (0)7931 937 037",
-  telephone: "+234 (80)3700 7802",
+  email: "info@silvershellconsult.com",
+  telephone: "+44 1413 539308",
+  whatsapp: "+44 7729 324316",
+  // Link targets derived from the display numbers above.
+  telephoneHref: "tel:+441413539308",
+  whatsappHref: "https://wa.me/447729324316",
 } as const;
 
 export const aboutContent = {

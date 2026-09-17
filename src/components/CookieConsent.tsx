@@ -50,16 +50,16 @@ export function CookieConsent() {
       aria-label="Cookie consent"
       className="fixed inset-x-0 bottom-0 z-50 border-t border-line bg-paper p-4 shadow-[0_-4px_24px_rgba(27,27,30,0.10)] md:p-5"
     >
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto flex max-w-6xl flex-col gap-3 md:flex-row md:items-center md:justify-between md:gap-4">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold text-ink">We value your privacy</p>
-          <p className="mt-1 type-body-sm text-ink-soft">
+          <p className="mt-1 text-[13px] leading-snug text-ink-soft sm:type-body-sm">
             We store a small token in your browser so the site loads instantly on
             your next visit, and record your choice below in a cookie. You can
             accept or stick to essential-only — either way the site works fully.
           </p>
         </div>
-        <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
+        <div className="grid shrink-0 grid-cols-2 gap-2 sm:flex sm:flex-row">
           <button
             type="button"
             onClick={() => choose("essential")}

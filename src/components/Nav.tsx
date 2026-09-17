@@ -95,10 +95,10 @@ export function Nav() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <Link href="/" className="text-paper" onClick={() => { setOpen(false); setServicesOpen(false); }}>
-          <SiteMark imgClassName="h-11 w-auto md:h-14" />
+          <SiteMark imgClassName="h-10 w-auto sm:h-11 lg:h-14" />
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8" aria-label="Primary">
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8" aria-label="Primary">
           {/* Services dropdown */}
           <div ref={dropdownRef} className="relative">
             <button
@@ -158,7 +158,7 @@ export function Nav() {
           ))}
           <Link
             href="/contact"
-            className="rounded-xl bg-amber-600 px-4 py-2 text-sm font-semibold text-indigo-900 transition-colors hover:bg-amber-500"
+            className="whitespace-nowrap rounded-xl bg-amber-600 px-4 py-2 text-sm font-semibold text-indigo-900 transition-colors hover:bg-amber-500"
           >
             Request a consultation
           </Link>
@@ -166,7 +166,7 @@ export function Nav() {
 
         <button
           type="button"
-          className="md:hidden text-paper"
+          className="lg:hidden -mr-2 flex h-11 w-11 items-center justify-center rounded-lg text-paper transition-colors hover:bg-indigo-600"
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => {
@@ -181,7 +181,7 @@ export function Nav() {
       {/* Mobile menu: overlay dropdown below the header (does not push content) */}
       {open && (
         <nav
-          className="absolute left-0 right-0 top-full z-50 md:hidden max-h-[80vh] overflow-y-auto border-t border-indigo-600 bg-indigo-700 px-6 pb-6 pt-2 shadow-[0_24px_48px_-12px_rgba(32,30,28,0.55)] motion-safe:animate-[menu-in_200ms_ease-out]"
+          className="absolute left-0 right-0 top-full z-50 lg:hidden max-h-[80vh] overflow-y-auto border-t border-indigo-600 bg-indigo-700 px-6 pb-6 pt-2 shadow-[0_24px_48px_-12px_rgba(32,30,28,0.55)] motion-safe:animate-[menu-in_200ms_ease-out]"
           aria-label="Primary"
         >
           <ul className="flex flex-col">

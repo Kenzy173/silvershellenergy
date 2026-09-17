@@ -40,12 +40,12 @@ export function Footer() {
 
             <div>
               <h2 className="type-label text-paper">Services</h2>
-              <ul className="mt-4 flex flex-col gap-2.5">
+              <ul className="mt-3 flex flex-col gap-0.5">
                 {services.map((service) => (
                   <li key={service.slug}>
                     <Link
                       href={`/services/${service.slug}`}
-                      className="type-body-sm text-indigo-200 transition-colors hover:text-paper"
+                      className="inline-block py-1 type-body-sm text-indigo-200 transition-colors hover:text-paper"
                     >
                       {service.name}
                     </Link>
@@ -56,12 +56,12 @@ export function Footer() {
 
             <div>
               <h2 className="type-label text-paper">Company</h2>
-              <ul className="mt-4 flex flex-col gap-2.5">
+              <ul className="mt-3 flex flex-col gap-0.5">
                 {primaryNav.map((item) => (
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className="type-body-sm text-indigo-200 transition-colors hover:text-paper"
+                      className="inline-block py-1 type-body-sm text-indigo-200 transition-colors hover:text-paper"
                     >
                       {item.label}
                     </Link>

@@ -10,7 +10,7 @@ function TestimonialCard({
   testimonial: (typeof testimonials)[number];
 }) {
   return (
-    <figure className="flex w-[22rem] shrink-0 flex-col justify-between rounded-2xl border border-line bg-paper p-6 sm:w-[26rem]">
+    <figure className="flex w-[min(22rem,calc(100vw-4rem))] shrink-0 flex-col justify-between rounded-2xl border border-line bg-paper p-6 sm:w-[26rem]">
       <div>
         <span className="block text-3xl leading-none text-indigo-200" aria-hidden="true">
           &ldquo;
@@ -81,18 +81,18 @@ export function Testimonials() {
           if (!e.currentTarget.contains(e.relatedTarget as Node)) setPaused(false);
         }}
       >
-        <div className={`flex shrink-0 animate-marquee gap-6 pr-6 ${paused ? "marquee-paused" : ""}`}>
+        <div className={`flex shrink-0 animate-marquee gap-6 pl-6 ${paused ? "marquee-paused" : ""}`}>
           {track.map((t, i) => (
             <TestimonialCard key={`${t.name}-${i}`} testimonial={t} />
           ))}
         </div>
         {/* Fade edges (confined to the marquee strip) */}
         <div
-          className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-paper-warm to-transparent"
+          className="pointer-events-none absolute inset-y-0 left-0 z-10 w-6 sm:w-16 md:w-24 bg-gradient-to-r from-paper-warm to-transparent"
           aria-hidden="true"
         />
         <div
-          className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-paper-warm to-transparent"
+          className="pointer-events-none absolute inset-y-0 right-0 z-10 w-6 sm:w-16 md:w-24 bg-gradient-to-l from-paper-warm to-transparent"
           aria-hidden="true"
         />
       </div>
